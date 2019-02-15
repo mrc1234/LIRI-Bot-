@@ -56,7 +56,8 @@ var spotifyThisSong = function(trackQuery) {
 	spotify.search({ type: 'track', query: trackQuery }, function(error, data) {
 	    if(error) { // if error
 	        console.log('Error occurred: ' + error);
-	    } else { // if no error
+			} else { // if no error
+				console.log(data.tracks.items[0].artists);
 	    	// For loop is for when a track has multiple artists
 				for(var i = 0; i < data.tracks.items[0].artists.length; i++) {
 					if(i === 0) {

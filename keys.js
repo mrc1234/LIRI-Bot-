@@ -1,5 +1,5 @@
 
-// console.log('this is loaded');
+// console.log('this is loaded'); This should be working
 
 exports.twitterKeys = {
   consumer_key: 'Zj8MzJTHwqfouq33dzWSWlX4L',
@@ -7,3 +7,4 @@ exports.twitterKeys = {
   access_token_key: '849082256903876609-BFeWj2aYoOADXqiw0EHovigCjCATGPG',
   access_token_secret: 'NVWJj0JhUJdehXWwHwIO12ynI4YIf45xKmtTDkArSx29A',
 }
+
